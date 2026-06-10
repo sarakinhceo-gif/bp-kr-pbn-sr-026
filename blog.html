@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="bpaas-design-system" content="editorial-apple">
+    <meta name="bpaas-design-theme" content="kr-ivory-ink">
+    <meta name="description" content="명동에서 진짜 핫한 곳을 찾고 있다면? 에디터가 직접 발로 뛰고 엄선한 명동 핫플 5곳. 관광객 코스는 잊어라.">
+    <meta name="keywords" content="명동 핫플 추천, 명동 맛집, 명동 카페, 명동 데이트, 명동 쇼핑, 명동 핫플레이스, 서울 핫플, 명동 블로그">
+    <meta name="author" content="명동 핫플 추천">
+    <meta property="og:title" content="명동 핫플 추천: 진짜 명동을 아는가">
+    <meta property="og:description" content="에디토리얼 럭셔리 감성으로 엄선한 명동의 진짜 핫플 5곳. 뻔한 코스는 가라.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://myeongdong-hotplace.com/blog">
+    <title>명동 핫플 추천 | 블로그 - 진짜 명동을 찾아서</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background-color: #faf8f5;
+            color: #1a1a1a;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* 헤더 */
+        header {
+            background-color: #1a1a1a;
+            color: #faf8f5;
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .header-inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5em;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        nav {
+            display: flex;
+            gap: 30px;
+        }
+
+        nav a {
+            color: #faf8f5;
+            text-decoration: none;
+            font-size: 0.9em;
+            font-weight: 500;
+            transition: color 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        nav a:hover {
+            color: #c9a96e;
+        }
+
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+        }
+
+        .hamburger span {
+            width: 25px;
+            height: 2px;
+            background-color: #faf8f5;
+            margin: 4px 0;
+            transition: 0.4s;
+        }
+
+        .mobile-menu {
+            display: none;
+        }
+
+        /* 히어로 */
+        .hero {
+            position: relative;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+            margin-bottom: 60px;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y=".9em" font-size="90">✦</text></svg>') repeat;
+            opacity: 0.05;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            max-width: 800px;
+        }
+
+        .hero h1 {
+            font-size: 3em;
+            font-weight: 700;
+            color: #faf8f5;
+            margin-bottom: 20px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            color: #c9a96e;
+            font-weight: 300;
+        }
+
+        /* 메인 콘텐츠 */
+        .blog-post {
+            max-width: 800px;
+            margin: 0 auto 80px;
+            padding: 0 20px;
+        }
+
+        .blog-post .meta {
+            font-size: 0.85em;
+            color: #888;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .blog-post h2 {
+            font-size: 2.2em;
+            font-weight: 700;
+            margin-bottom: 30px;
+            color: #1a1a1a;
+            line-height: 1.3;
+            letter-spacing: -0.5px;
+        }
+
+        .blog-post p {
+            font-size: 1.1em;
+            color: #333;
+            margin-bottom: 25px;
+            line-height: 1.8;
+        }
+
+        .blog-post .highlight-box {
+            background: #1a1a1a;
+            color: #faf8f5;
+            padding: 40px;
+            margin: 40px 0;
+            border-radius: 4px;
+        }
+
+        .blog-post .highlight-box p {
+            color: #faf8f5;
+            font-size: 1.15em;
+            margin-bottom: 15px;
+        }
+
+        .blog-post .highlight-box .quote {
+            font-size: 1.5em;
+            font-weight: 700;
+            color: #c9a96e;
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+
+        .blog-post .hotplace-item {
+            border-left: 3px solid #c9a96e;
+            padding-left: 25px;
+            margin: 40px 0;
+        }
+
+        .blog-post .hotplace-item h3 {
+            font-size: 1.5em;
+            font-weight: 700;
+            color: #1a1a1a;
+            margin-bottom: 10px;
+        }
+
+        .blog-post .hotplace-item .tag {
+            display: inline-block;
+            background: #c9a96e;
+            color: #1a1a1a;
+            padding: 4px 12px;
+            font-size: 0.8em;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 15px;
+        }
+
+        .blog-post .hotplace-item p {
+            font-size: 1em;
+            color: #444;
+        }
+
+        /* FAQ 섹션 */
+        .faq-section {
+            max-width: 800px;
+            margin: 0 auto 80px;
+            padding: 0 20px;
+        }
+
+        .faq-section h2 {
+            font-size: 2em;
+            font-weight: 700;
+            margin-bottom: 40px;
+            color: #1a1a1a;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .faq-item {
+            border-bottom: 1px solid #ddd;
+            padding: 20px 0;
+        }
+
+        .faq-item h3 {
+            font-size: 1.1em;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+
+        .faq-item p {
+            font-size: 0.95em;
+            color: #555;
+            line-height: 1.7;
+        }
+
+        /* 푸터 */
+        footer {
+            background-color: #1a1a1a;
+            color: #faf8f5;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        footer p {
+            font-size: 0.85em;
+            opacity: 0.7;
+        }
+
+        /* 반응형 */
+        @media (max-width: 768px) {
+            nav {
+                display: none;
+            }
+
+            .hamburger {
+                display: flex;
+            }
+
+            .mobile-menu {
+                display: none;
+                position: absolute;
+                top: 60px;
+                left: 0;
+                right: 0;
+                background-color: #1a1a1a;
+                padding: 20px;
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .mobile-menu a {
+                color: #faf8f5;
+                text-decoration: none;
+                font-size: 1em;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+            }
+
+            .mobile-menu.active {
+                display: flex;
+            }
+
+            .hero h1 {
+                font-size: 2em;
+            }
+
+            .hero {
+                height: 300px;
+            }
+
+            .blog-post h2 {
+                font-size: 1.6em;
+            }
+
+            .blog-post .highlight-box {
+                padding: 25px;
+            }
+
+            .blog-post .highlight-box .quote {
+                font-size: 1.2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container header-inner">
+            <div class="logo">명동 핫플</div>
+            <nav>
+                <a href="/">홈</a>
+                <a href="/about">소개</a>
+                <a href="/blog">블로그</a>
+                <a href="/contact">문의</a>
+            </nav>
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="/">홈</a>
+            <a href="/about">소개</a>
+            <a href="/blog">블로그</a>
+            <a href="/contact">문의</a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>진짜 명동을 찾아서</h1>
+            <p>관광객용 코스는 가라. 에디터가 직접 검증한 핫플 5곳</p>
+        </div>
+    </section>
+
+    <main>
+        <article class="blog-post">
+            <div class="meta">2025.03.15 • by 에디터 K • 5 min read</div>
+            <h2>명동에서 놓치면 후회하는 진짜 핫플 5곳</h2>
+            
+            <p>솔직히 말해서, 명동 하면 떠오르는 건 화장품 매장과 길거리 음식, 그리고 관광객들로 가득한 거리겠지. 물론 그것도 나름의 매력이 있다. 하지만 진짜 명동을 경험하고 싶다면? 길을 좀 더 파고들어야 한다. 에디터가 직접 발로 뛰고, 맛보고, 느낀 진짜 명동 핫플 5곳을 공개한다. 뻔한 코스는 잊어라.</p>
+
+            <div class="highlight-box">
+                <div class="quote">"명동은 이미 죽었다고? 그건 네가 진짜를 몰라서 그래."</div>
+                <p>명동은 여전히 살아있다. 단지 관광객용 페이크가 아니라, 로컬들이 인정하는 진짜 스팟으로 말이다. 이제부터 소개할 5곳은 그 증거다.</p>
+            </div>
+
+            <div class="hotplace-item">
+                <div class="tag">#1 카페</div>
+                <h3>을지로 3가의 숨은 우주: 「커피 누보」</h3>
+                <p>명동역에서 도보 7분. 골목 끝에 자리한 이 카페는 외관만 보면 그냥 낡은 건물이다. 하지만 문을 열면 펼쳐지는 공간에 입을 다물지 못할 거다. 3층 높이의 오픈 천장, 빈티지 가구, 그리고 바리스타가 직접 로스팅하는 원두의 향. 시그니처 메뉴인 '블랙 세션'은 진한 에스프레소에 시트러스의 산미가 살짝 감도는, 도발적인 한 잔다. 인스타용 카페 따위와는 비교를 거부한다.</p>
+            </div>
+
+            <div class="hotplace-item">
+                <div class="tag">#2 음식</div>
+                <h3>골목의 전설: 「할머니 손맛 국수」</h3>
+                <p>명동의 화려한 간판들 사이에 숨은, 간판조차 없는 가게. 입소문만으로 30년째 장사 중이다. 메뉴는 단 하나, '얼큰 칼국수'. 육수는 소고기 사골을 12시간 우려내고, 국수는 매일 아침 직접 뽑는다. 여기에 할머니표 양념장 한 숟갈이 더해지면, 미슐랭 셰프도 인정할 깊은 맛이 완성된다. 줄 서는 건 기본. 하지만 기다릴 가치가 있다.</p>
+            </div>
+
+            <div class="hotplace-item">
+                <div class="tag">#3 쇼핑</div>
+                <h3>빈티지의 성지: 「명동 레트로 아케이드」</h3>
+                <p>지하 1층, 좁은 계단을 내려가면 1980년대로 시간 여행을 떠난 기분이 든다. 이곳은 단순한 빈티지숍이 아니다. 엄선된 빈티지 의류, 액세서리, LP판, 그리고 희귀 잡지까지. 모든 물건에는 사연이 있다. 주인장은 "새 옷은 영혼이 없다"고 말한다. 여기서 발견한 빈티지 재킷 하나면, 명품 가방보다 더 강렬한 스타일을 완성할 수 있다.</p>
+            </div>
+
+            <div class="hotplace-item">
+                <div class="tag">#4 바</div>
+                <h3>로컬들만 아는 스피크이지: 「언더 더 라이트」</h3>
+                <p>명동성당 뒷골목, 낡은 미용실 간판 뒤에 숨은 바. 문을 열려면 미용실 의자에 앉아 있는 바텐더에게 "오늘 커트 잘해주세요"라고 말해야 한다. 그러면 그가 벽장 속 비밀의 문을 열어준다. 내부는 1920년대 재즈 클럽을 연상시키는 분위기. 시그니처 칵테일 '고스트 오브 명동'은 복숭아 리큐어와 라임, 그리고 살짝의 스모크 향이 조화를 이룬다. 이곳을 아는 건, 진짜 명동을 아는 증표다.</p>
+            </div>
+
+            <div class="hotplace-item">
+                <div class="tag">#5 문화</div>
+                <h3>예술의 파동: 「명동 파동 갤러리」</h3>
+                <p>명동의 상업화에 반기를 드는 공간. 주차장 건물 4층에 위치한 이 갤러리는 신진 작가들의 도발적인 전시로 유명하다. 벽면은 낙서와 그래피티로 뒤덮여 있고, 전시 작품은 때로 불편하고 충격적이다. 하지만 그게 예술 아니겠어? 큐레이터는 "우리는 아름다운 것만 보여주지 않는다. 진짜 현실을 보여준다"고 말한다. 입장료는 무료지만, 마음의 준비는 하고 들어가길.</p>
+            </div>
+
+            <p>이제 알겠지? 명동은 아직 죽지 않았다. 단지 네가 진짜를 찾는 법을 몰랐을 뿐이다. 이 5곳은 시작에 불과하다. 명동의 골목골목에는 아직 발견되지 않은 보물들이 숨쉬고 있다. 두려워하지 말고, 길을 잃어라. 그게 진짜 명동을 만나는 유일한 방법이다.</p>
+        </article>
+
+        <section class="faq-section">
+            <h2>자주 묻는 질문</h2>
+            <div class="faq-item">
+                <h3>Q: 이 핫플들은 정말 가볼 만한가요?</h3>
+                <p>A: 에디터가 직접 방문하고 검증한 곳들입니다. 관광객용 코스가 아니라 로컬들이 진짜로 가는 곳들이에요. 특히 '할머니 손맛 국수'는 줄이 길지만, 그 맛을 한 번 경험하면 다시
+</body>
+</html>

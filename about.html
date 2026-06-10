@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="bpaas-design-system" content="editorial-apple">
+    <meta name="bpaas-design-theme" content="kr-ivory-ink">
+    <meta name="description" content="명동에서 가장 핫한 스팟을 찾는 당신을 위한 도발적인 추천. 기존의 관광 코스는 잊어라. 에디토리얼 럭셔리 감성으로 엄선한 명동 핫플 5곳. 지금 바로 확인하세요.">
+    <meta name="keywords" content="명동 핫플 추천, 명동 맛집, 명동 카페, 명동 데이트, 명동 쇼핑, 명동 핫플레이스, 서울 핫플">
+    <meta name="author" content="명동 핫플 추천">
+    <meta property="og:title" content="명동 핫플 추천: 당신이 몰랐던 진짜 명동">
+    <meta property="og:description" content="뻔한 명동은 가라. 에디토리얼 럭셔리 감성으로 엄선한 진짜 핫플 5곳을 공개한다.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kr-pbn-sr-026.vercel.app">
+    <meta property="og:image" content="https://kr-pbn-sr-026.vercel.app/og-image.jpg">
+    <meta property="og:locale" content="ko_KR">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="명동 핫플 추천: 당신이 몰랐던 진짜 명동">
+    <meta name="twitter:description" content="뻔한 명동은 가라. 에디토리얼 럭셔리 감성으로 엄선한 진짜 핫플 5곳을 공개한다.">
+    <meta name="twitter:image" content="https://kr-pbn-sr-026.vercel.app/og-image.jpg">
+    <link rel="canonical" href="https://kr-pbn-sr-026.vercel.app">
+    <title>명동 핫플 추천: 당신이 몰랐던 진짜 명동</title>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "명동 핫플 추천: 당신이 몰랐던 진짜 명동",
+        "description": "명동에서 가장 핫한 스팟을 찾는 당신을 위한 도발적인 추천. 기존의 관광 코스는 잊어라. 에디토리얼 럭셔리 감성으로 엄선한 명동 핫플 5곳.",
+        "url": "https://kr-pbn-sr-026.vercel.app",
+        "mainEntity": {
+            "@type": "ItemList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@type": "Place",
+                        "name": "을지로 3가 감성 다이닝",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "addressLocality": "서울",
+                            "addressRegion": "중구"
+                        }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@type": "Place",
+                        "name": "명동 숨은 골목 카페",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "addressLocality": "서울",
+                            "addressRegion": "중구"
+                        }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@type": "Place",
+                        "name": "퇴계로 빈티지 부티크",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "addressLocality": "서울",
+                            "addressRegion": "중구"
+                        }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 4,
+                    "item": {
+                        "@type": "Place",
+                        "name": "충무로 아트 스페이스",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "addressLocality": "서울",
+                            "addressRegion": "중구"
+                        }
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 5,
+                    "item": {
+                        "@type": "Place",
+                        "name": "명동 대성당 옆 쿠키 맛집",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "addressLocality": "서울",
+                            "addressRegion": "중구"
+                        }
+                    }
+                }
+            ]
+        }
+    }
+    </script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #fdfaf3;
+            color: #2c2416;
+            font-family: 'Georgia', 'Times New Roman', 'Palatino Linotype', serif;
+            line-height: 1.8;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 72px 24px;
+        }
+
+        /* 헤더 */
+        header {
+            border-bottom: 1px solid #8a7355;
+            padding-bottom: 24px;
+            margin-bottom: 48px;
+        }
+
+        .header-inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        .logo {
+            font-size: 1.2rem;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: #2c2416;
+            font-weight: 700;
+        }
+
+        nav {
+            display: flex;
+            gap: 32px;
+            align-items: center;
+        }
+
+        nav a {
+            color: #2c2416;
+            text-decoration: none;
+            font-size: 0.9rem;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            transition: color 0.2s;
+        }
+
+        nav a:hover {
+            color: #8a7355;
+        }
+
+        .hamburger {
+            display: none;
+            cursor: pointer;
+            background: none;
+            border: none;
+            padding: 8px;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        .hamburger span {
+            display: block;
+            width: 28px;
+            height: 2px;
+            background: #2c2416;
+            transition: all 0.3s;
+        }
+
+        .mobile-menu {
+            display: none;
+        }
+
+        /* 히어로 */
+        .hero {
+            margin-bottom: 120px;
+            padding: 72px 0;
+            position: relative;
+            background: linear-gradient(135deg, #2c2416 0%, #8a7355 50%, #2c2416 100%);
+            min-height: 60vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            border-top: 4px solid #fdfaf3;
+            border-bottom: 4px solid #fdfaf3;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(180deg, rgba(44,36,22,0.3) 0%, rgba(44,36,22,0.7) 100%);
+            z-index: 1;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            max-width: 720px;
+            padding: 0 24px;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            letter-spacing: 0.08em;
+            line-height: 1.2;
+            color: #fdfaf3;
+            margin-bottom: 24px;
+            font-weight: 700;
+            text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            letter-spacing: 0.05em;
+            color: rgba(253,250,243,0.85);
+            max-width: 600px;
+            margin: 0 auto;
+            font-style: italic;
+        }
+
+        .hero .dropcap::first-letter {
+            font-size: 4rem;
+            float: left;
+            margin-right: 8px;
+            line-height: 0.8;
+            color: #fdfaf3;
+            font-weight: 700;
+        }
+
+        /* 섹션 */
+        section {
+            margin-bottom: 120px;
+        }
+
+        .section-title {
+            font-size: 2.2rem;
+            letter-spacing: 0.12em;
+            color: #2c2416;
+            margin-bottom: 48px;
+            font-weight: 700;
+            border-left: 4px solid #8a7355;
+            padding-left: 24px;
+        }
+
+        .section-title span {
+            color: #8a7355;
+        }
+
+        /* 핫플 리스트 */
+        .hotspot-list {
+            display: flex;
+            flex-direction: column;
+            gap: 48px;
+        }
+
+        .hotspot-item {
+            border-bottom: 1px solid #8a7355;
+            padding-bottom: 48px;
+        }
+
+        .hotspot-item:last-child {
+            border-bottom: none;
+        }
+
+        .hotspot-number {
+            font-size: 0.8rem;
+            letter-spacing: 0.2em;
+            color: #8a7355;
+            text-transform: uppercase;
+            margin-bottom: 8px;
+        }
+
+        .hotspot-title {
+            font-size: 1.8rem;
+            letter-spacing: 0.05em;
+            color: #2c2416;
+            margin-bottom: 16px;
+            font-weight: 700;
+        }
+
+        .hotspot-desc {
+            font-size: 1rem;
+            color: #2c2416;
+            opacity: 0.85;
+            margin-bottom: 16px;
+            line-height: 1.9;
+        }
+
+        .hotspot-meta {
+            display: flex;
+            gap: 24px;
+            font-size: 0.85rem;
+            color: #8a7355;
+            letter-spacing: 0.05em;
+        }
+
+        .hotspot-meta span {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        /* UGC 리뷰 */
+        .review-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 48px;
+        }
+
+        .review-card {
+            padding: 24px 0;
+            border-top: 1px solid #8a7355;
+        }
+
+        .review-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+
+        .review-user {
+            font-weight: 700;
+            letter-spacing: 0.05em;
+            font-size: 1rem;
+            color: #2c2416;
+        }
+
+        .review-date {
+            font-size: 0.8rem;
+            color: #8a7355;
+            letter-spacing: 0.05em;
+        }
+
+        .review-stars {
+            color: #8a7355;
+            font-size: 1.2rem;
+            letter-spacing: 0.3em;
+            margin-bottom: 8px;
+        }
+
+        .review-text {
+            font-size: 1rem;
+            line-height: 1.9;
+            color: #2c2416;
+            opacity: 0.85;
+            font-style: italic;
+        }
+
+        /* 푸터 */
+        footer {
+            border-top: 2px solid #2c2416;
+            padding-top: 48px;
+            margin-top: 120px;
+            text-align: center;
+        }
+
+        .footer-inner {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 48px;
+            margin-bottom: 24px;
+            flex-wrap: wrap;
+        }
+
+        .footer-links a {
+            color: #2c2416;
+            text-decoration: none;
+            font-size: 0.85rem;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            transition: color 0.2s;
+        }
+
+        .footer-links a:hover {
+            color: #8a7355;
+        }
+
+        .copyright {
+            font-size: 0.8rem;
+            color: #8a7355;
+            letter-spacing: 0.1em;
+        }
+
+        .copyright a {
+            color: #8a7355;
+            text-decoration: underline;
+        }
+
+        /* 반응형 */
+        @media (max-width: 768px) {
+            .container {
+                padding: 48px 16px;
+            }
+
+            .header-inner {
+                padding: 0 16px;
+            }
+
+            nav {
+                display: none;
+            }
+
+            .hamburger {
+                display: flex;
+            }
+
+            .mobile-menu.active {
+                display: block;
+                position: absolute;
+                top: 72px;
+                left: 0;
+                right: 0;
+                background: #fdfaf3;
+                border-bottom: 1px solid #8a7355;
+                padding: 24px;
+                z-index: 100;
+            }
+
+            .mobile-menu.active a {
+                display: block;
+                padding: 16px 0;
+                color: #2c2416;
+                text-decoration: none;
+                font-size: 1rem;
+                letter-spacing: 0.1em;
+                text-transform: uppercase;
+                border-bottom: 1px solid rgba(138,115,85,0.2);
+            }
+
+            .mobile-menu.active a:last-child {
+                border-bottom: none;
+            }
+
+            .hero {
+                min-height: 50vh;
+                padding: 48px 0;
+            }
+
+            .hero h1 {
+                font-size: 2.2rem;
+            }
+
+            .hero p {
+                font-size: 1rem;
+            }
+
+            .section-title {
+                font-size: 1.6rem;
+                padding-left: 16px;
+            }
+
+            .hotspot-title {
+                font-size: 1.4rem;
+            }
+
+            .review-grid {
+                gap: 32px;
+            }
+
+            .footer-links {
+                gap: 24px;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            section {
+                margin-bottom: 80px;
+            }
+
+            .hero {
+                margin-bottom: 80px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+
+            .container {
+                padding: 32px 12px;
+            }
+
+            .hotspot-meta {
+                flex-direction: column;
+                gap: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="header-inner">
+        <div class="logo">명동 핫플</div>
+        <nav>
+            <a href="#hotspots">핫플</a>
+            <a href="#reviews">리뷰</a>
+            <a href="tel:01062790862">전화</a>
+        </nav>
+        <button class="hamburger" id="hamburger" aria-label="메뉴 열기">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#hotspots">핫플</a>
+        <a href="#reviews">리뷰</a>
+        <a href="tel:01062790862">전화</a>
+    </div>
+</header>
+
+<main>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>명동,<br>당신이 몰랐던 <span style="color: #fdfaf3;">진짜</span></h1>
+            <p class="dropcap">관광 코스는 잊어라. 여기는 당신의 취향을 시험하는 장소다. 에디토리얼 럭셔리 감성으로 엄선한 진짜 핫플 5곳. 지금 바로 확인하라.</p>
+        </div>
+    </section>
+
+    <div class="container">
+        <section id="hotspots">
+            <h2 class="section-title">핫플 <span>5</span></h2>
+            <div class="hotspot-list">
+                <article class="hotspot-item">
+                    <div class="hotspot-number">01</div>
+                    <h3 class="hotspot-title">을지로 3가 감성 다이닝</h3>
+                    <p class="hotspot-desc">낡은 건물 3층, 엘리베이터 없는 그곳. 문을 열면 펼쳐지는 와인과 어둠의 조화. 메뉴는 단 하나, 오늘의 코스. 선택은 당신의 몫이다. 인스타그램용 접시는 없다. 맛으로 승부한다.</p>
+                    <div class="hotspot-meta">
+                        <span>📍 을지로3가역 2번 출구</span>
+                        <span>⏰ 18:00-02:00</span>
+                        <span>💰 1인 5만원</span>
+                    </div>
+                </article>
+
+                <article class="hotspot-item">
+                    <div class="hotspot-number">02</div>
+                    <h3 class="hotspot-title">명동 숨은 골목 카페</h3>
+                    <p class="hotspot-desc">네비게이션은 포기하라. 골목 안 골목, 문 앞에 서기 전까지 당신은 길을 잃을 것이다. 그곳에서 만나는 핸드드립 한 잔. 로스팅 포인트는 자신의 취향이다. 바리스타는 말이 없다.</p>
+                    <div class="hotspot-meta">
+                        <span>📍 명동역 5번 출구 도보 7분</span>
+                        <span>⏰ 11:00-21:00</span>
+                        <span>💰 아메리카노 5,000원</span>
+                    </div>
+                </article>
+
+                <article class="hotspot-item">
+                    <div class="hotspot-number">03</div>
+                    <h3 class="hotspot-title">퇴계로 빈티지 부티크</h3>
+                    <p class="hotspot-desc">패스트 패션은 여기 없다. 80년대 재킷, 90년대 청바지, 2000년대 액세서리. 시간이 멈춘 공간에서 당신만의 스타일을 찾아라. 가격표는 없다. 당신의 눈빛이 가격을 결정한다.</p>
+                    <div class="hotspot-meta">
+                        <span>📍 퇴계로 6길 12</span>
+                        <span>⏰ 14:00-20:00</span>
+                        <span>💰 가격 협의</span>
+                    </div>
+                </article>
+
+                <article class="hotspot-item">
+                    <div class="hotspot-number">04</div>
+                    <h3 class="hotspot-title">충무로 아트 스페이스</h3>
+                    <p class="hotspot-desc">예술은 멀리 있지 않다. 오래된 인쇄소를 개조한 이 공간은 전시, 공연, 그리고 술이 공존한다. 큐레이터는 당신에게 작품을 설명하지 않는다. 스스로 느껴라. 그리고 와인을 주문하라.</p>
+                    <div class="hotspot-meta">
+                        <span>📍 충무로역 4번 출구</span>
+                        <span>⏰ 12:00-24:00</span>
+                        <span>💰 무료 전시</span>
+                    </div>
+                </article>
+
+                <article class="hotspot-item">
+                    <div class="hotspot-number">05</div>
+                    <h3 class="hotspot-title">명동 대성당 옆 쿠키 맛집</h3>
+                    <p class="hotspot-desc">성당의 고요함과 반대편에 위치한 이 작은 가게. 버터 향이 거리를 지배한다. 쿠키는 단 두 가지: 초콜릿 칩과 얼그레이. 완벽한 식감을 위해 30분마다 갓 구워낸다. 성당 종소리와 함께 즐겨라.</p>
+                    <div class="hotspot-meta">
+                        <span>📍 명동대성당 인근</span>
+                        <span>⏰ 10:00-19:00</span>
+                        <span>💰 쿠키 3,000원</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="reviews">
+            <h2 class="section-title">솔직한 <span>리뷰</span></h2>
+            <div class="review-grid">
+                <div class="review-card">
+                    <div class="review-header">
+                        <span class="review-user">서울의밤</span>
+                        <span class="review-date">2024.11.15</span>
+                    </div>
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">을지로 감성 다이닝, 정말 숨은 보석이다. 와인 리스트가 독특하고 코스 요리가 감동적이었다. 엘리베이터 없는 건 단점이지만, 그게 오히려 매력이다. 다음에 또 올게요.</p>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-header">
+                        <span class="review-user">카페인중독자</span>
+                        <span class="review-date">2024.11.10</span>
+                    </div>
+                    <div class="review-stars">★★★★☆</div>
+                    <p class="review-text">골목 카페 찾느라 20분 걸렸다. 그래도 그만한 가치가 있었다. 핸드드립 맛은 진짜 예술. 다만 좌석이 너무 적고 조용해서 혼자 오길 추천한다. 수다 금지 구역.</p>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-header">
+                        <span class="review-user">빈티지퀸</span>
+                        <span class="review-date">2024.11.05</span>
+                    </div>
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">퇴계로 부티크에서 80년대 재킷 샀다. 가격이 조금 비쌌지만 상태가 완벽했다. 사장님이 엄청 깐깐한데, 그게 오히려 신뢰가 간다. 진짜 빈티지 원한다면 여기다.</p>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-header">
+                        <span class="review-user">문화충격</span>
+                        <span class="review-date">2024.10.28</span>
+                    </div>
+                    <div class="review-stars">★★★★☆</div>
+                    <p class="review-text">아트 스페이스 전시가 정말 좋았다. 다만 와인 가격이 좀 부담스러움. 그래도 분위기가 워낙 좋아서 그냥 넘어간다. 재즈 공연 있는 날 다시 올 예정.</p>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-header">
+                        <span class="review-user">갓파더쿠키</span>
+                        <span class="review-date">2024.10.20</span>
+                    </div>
+                    <div class="review-stars">★★★★★</div>
+                    <p class="review-text">성당 옆 쿠키 가게, 미쳤다. 갓 구운 초콜릿 칩 쿠키가 세상에서 제일 맛있었다. 30분마다 구워서 항상 따뜻한 게 포인트. 단, 줄이 길 수 있음. 그만한 가치 있음.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+</main>
+
+<footer>
+    <div class="footer-inner">
+        <div class="footer-links">
+            <a href="#hotspots">핫플</a>
+            <a href="#reviews">리뷰</a>
+            <a href="tel:01062790862">전화</a>
+            <a href="https://kr-pbn-sr-026.vercel.app">홈</a>
+        </div>
+        <div class="copyright">
+            &copy; 2024 명동 핫플 추천 · <a href="tel:01062790862">010-6279-0862</a> · 모든 권리 보유
+        </div>
+    </div>
+</footer>
+
+<script>
+    const hamburger = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobileMenu');
+
+    hamburger.addEventListener('click', function() {
+        mobileMenu
+</body>
+</html>
