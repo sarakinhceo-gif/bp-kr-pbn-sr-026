@@ -2,25 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://sarakinhceo-gif.github.io/bp-kr-pbn-sr-026/</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://sarakinhceo-gif.github.io/bp-kr-pbn-sr-026/about.html</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://sarakinhceo-gif.github.io/bp-kr-pbn-sr-026/blog.html</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://sarakinhceo-gif.github.io/bp-kr-pbn-sr-026/posts/checklist-001-1mzk4ac.html</loc>
     <lastmod>2026-06-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sarakinhceo-gif.github.io/bp-kr-pbn-sr-026/posts/checklist-002-1g4zha2.html</loc>
+    <lastmod>2026-07-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://sarakinhceo-gif.github.io/bp-kr-pbn-sr-026/posts/compare-001-edjm5j.html</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -98,7 +110,7 @@
   </url>
   <url>
     <loc>https://sarakinhceo-gif.github.io/bp-kr-pbn-sr-026/feed.xml</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
