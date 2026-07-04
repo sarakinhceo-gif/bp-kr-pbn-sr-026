@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://kr-pbn-sr-026.node-link.shop/sitemap.xml
+Sitemap: https://myeongdong-hot-spot.node-link.shop/sitemap.xml
