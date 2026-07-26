@@ -38,7 +38,7 @@
 <p>3.  **Writing Content (Mental Draft):**</p>
 <p>*   Title: `[제목: 월매출 천만 원 넘게 찍었는데도 도망간 그들, 명동에선 어떻게 먹었나?]`<br>    *   Intro: Start with number. "월 매출 3000 만원 찍고도 6 개월 만에 폐업한 진짜 원가 구조". Connect to Myeongdong flow.<br>    *   Body 1 (Decision Tree): Condition 1 - Location Cost vs. Traffic. Condition 2 - Menu/Stability.<br>    *   Image: Insert after first paragraph or in body. Let's put Hero image at start visually, but text says "First line of output title". So Title -> Text -> Image? Or Title + Text then Image? Prompt: "본문의 가장 첫 줄에 `[제목: ...]`". Then text. Images where needed.<br>    *   Body 2 (Observation): Specific failure points. Rent ratio, online dependency.<br>    *   Conclusion: Short term vs Long term.</p>
 <p>4.  **Refining Constraints:**</p>
-<p>*   `##` or `###` for subtitles.<br>    *   Double newline between paragraphs.<br>    *   Paragraphs: 2-4 sentences each.<br>    *   Word count: 400~500 characters (Korean). This is tight. Need to be concise.<br>    *   Image format: `<img src="../assets/FluxProfile_00014_.png" alt="..." loading="lazy" width="1344" height="768"><br>        ```<br>        Wait, instruction says "다음 형식으로 이미지 태그를 출력하세요". I'll put the Booru tags inside the tag block after `alt`.</p>
+<p>*   `##` or `###` for subtitles.<br>    *   Double newline between paragraphs.<br>    *   Paragraphs: 2-4 sentences each.<br>    *   Word count: 400~500 characters (Korean). This is tight. Need to be concise.<br>    *   Image format: `<img src="../assets/FluxProfile_00014_.webp" alt="..." loading="lazy" width="1344" height="768"><br>        ```<br>        Wait, instruction says "다음 형식으로 이미지 태그를 출력하세요". I'll put the Booru tags inside the tag block after `alt`.</p>
 <p>*   **Text Structure:**<br>        1. Title line.<br>        2. Intro paragraph (Decision tree start).<br>        3. Subtitle + Body Paragraph 1.<br>        4. Image Insertion? Or later. Let's put Hero image at top or after intro. "본문의 가장 첫 줄에 제목". So Title -> Text -> Image is fine if I treat first text block as intro. But Image tag needs `placement`. If `hero`, it should be visually prominent.<br>        5. Subtitle + Body Paragraph 2.<br>        6. Conclusion paragraph (Short vs Long term).</p>
 <p>*   **Word Count:** 400-500 words. In Korean, this means roughly 15-20 lines of dense text or shorter paragraphs with some gaps. I need to count characters carefully.</p>
 <p>*   **Forbidden Knowledge Check:**<br>        *   No "Average failure rate". -> Use "3000 won sales example" instead.<br>        *   No "SWOT/Commercial Analysis". -> Use "Rent/Sales ratio", "Customer flow".<br>        *   No "Franchise vs Single". -> Use "Chain model vs Independent".</p>
@@ -56,7 +56,7 @@
 <p>`[제목: 월매출 천만 원 넘게 찍었는데도 도망간 그들, 명동에선 어떻게 먹었나?]`</p>
 <p>`월 매출 3000 만원 찍고도 6 개월 만에 폐업한 진짜 원가 구조를 보자. 요즘 것들은 '위치'만 좋으면 된다고 착각하는 경우가 많다. 하지만 내가 본 홍대 상권은 월세 부담이 너무 심해서 실질 수익률이 반토막 난 사례가 허다했다.`</p>
 <p>`## 실패 조건과 생존 체크포인트`<br>    `첫 번째로, 임대료 대비 매출 비중이 20% 를 넘으면 위험 신호다. 두 번째는 오픈한 지 3 달 내 고객 유입 패턴을 분석하지 않으면 후속 대책 마련이 늦어진다.`<br>    `요즘 것들은 '인스타 찍음'에 혈안이 되어 실제 재구매율을 간과하는 실수를 자주 한다. 명동 핫플 추천을 하면서도, 그 뒤의 비용 계산표를 제대로 읽지 않으면 결국 같은 길을 걷게 된다.`</p>
-<p>`<img src="../assets/bpaas_00043_.png" alt="홍대 상가 폐업 현장을 본 과거의 눈" loading="lazy" width="1344" height="768">`</p>
+<p>`<img src="../assets/bpaas_00043_.webp" alt="홍대 상가 폐업 현장을 본 과거의 눈" loading="lazy" width="1344" height="768">`</p>
 <p>`## 단기 효과와 장기 생존`<br>    `단기적으로는 화려한 인테리어로 유입을 잡는다 해도 유지 비용은 무시할 수 없다. 장기적으로 살아남은 곳은 메뉴 고정 비용 절감과 정기 고객 관리에 집중했다.`<br>    `내가 볼 적에는 명동 쪽이 홍대보다 재방문 주기가 길어 운영 부담이 조금 덜하다고 한다. 결국 중요한 건 '고객이 왜 돌아오는가'다.`</p>
 <p>*Count:* Still maybe a bit short visually. Let's expand sentences to be 2-4 per paragraph and ensure flow is natural "bro" style.<br>    Add more "Decision Tree" logic (If... Then...).</p>
 <p>*Final Polish:*<br>    1. Title: `[제목: ...]`<br>    2. Intro: Hook with number, connect Hongdae to Myeongdong.<br>    3. Subtitle + Body 1: Specific conditions. Image.<br>    4. Subtitle + Body 2: Long term vs Short term.<br>    5. Conclusion: Final thought.</p>
@@ -69,7 +69,7 @@
 <p>Let's rewrite slightly longer paragraphs.</p>
 <p>`월 매출 3000 만원 찍고도 6 개월 만에 폐업한 진짜 원가 구조를 보자.`<br>    `요즘 것들은 '위치'만 좋으면 된다고 착각하는 경우가 많다. 하지만 내가 본 홍대 상권은 월세 부담이 너무 심해서 실질 수익률이 반토막 난 사례가 허다했다. 특히 휴게시간과 폐점 후 정산 과정에서의 손실까지 합쳐야 실제 원가를 알 수 있다.`</p>
 <p>`## 실패 조건과 생존 체크포인트`<br>    `첫 번째로, 임대료 대비 매출 비중이 20% 를 넘으면 위험 신호다. 두 번째는 오픈한 지 3 달 내 고객 유입 패턴을 분석하지 않으면 후속 대책 마련이 늦어진다.`<br>    `요즘 것들은 '인스타 찍음'에 혈안이 되어 실제 재구매율을 간과하는 실수를 자주 한다. 명동 핫플 추천을 하면서도, 그 뒤의 비용 계산표를 제대로 읽지 않으면 결국 같은 길을 걷게 된다. 특히 프랜차이즈가 아닌 개인이 하는 경우 초기 홍보비 비중을 줄여야 한다.`</p>
-<p>`<img src="../assets/bpaas_00120_.png" alt="홍대 상가 폐업 현장을 본 과거의 눈" loading="lazy" width="1344" height="768">`</p>
+<p>`<img src="../assets/bpaas_00120_.webp" alt="홍대 상가 폐업 현장을 본 과거의 눈" loading="lazy" width="1344" height="768">`</p>
 <p>`## 단기 효과와 장기 생존`<br>    `단기적으로는 화려한 인테리어로 유입을 잡는다 해도 유지 비용은 무시할 수 없다. 장기적으로 살아남은 곳은 메뉴 고정 비용 절감과 정기 고객 관리에 집중했다.`<br>    `내가 볼 적에는 명동 쪽이 홍대보다 재방문 주기가 길어 운영 부담이 조금 덜다고 한다. 결국 중요한 건 '고객이 왜 돌아오는가'다. 단기 유행을 타는 거지, 본질적으로 돈이 되는 구조를 만드는 게 진짜 생존이다.`</p>
 <p>This looks closer to 450-500 characters including spaces and newlines if formatted well.</p>
 
