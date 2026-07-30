@@ -1,296 +1,247 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://myeongdong-hot-spot.node-link.shop/about.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://myeongdong-hot-spot.node-link.shop/blog.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://myeongdong-hot-spot.node-link.shop/</loc>
-    <lastmod>2026-07-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://myeongdong-hot-spot.node-link.shop/about.html</loc>
-    <lastmod>2026-07-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://myeongdong-hot-spot.node-link.shop/blog.html</loc>
-    <lastmod>2026-07-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://myeongdong-hot-spot.node-link.shop/posts/checklist-001-1mzk4ac.html</loc>
-    <lastmod>2026-06-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://myeongdong-hot-spot.node-link.shop/posts/checklist-002-10vha7b.html</loc>
-    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://myeongdong-hot-spot.node-link.shop/posts/checklist-002-1g4zha2.html</loc>
-    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://myeongdong-hot-spot.node-link.shop/posts/compare-001-1sd39vj.html</loc>
-    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://myeongdong-hot-spot.node-link.shop/posts/compare-001-edjm5j.html</loc>
-    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://myeongdong-hot-spot.node-link.shop/posts/compare-002-1wx6kiy.html</loc>
-    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://myeongdong-hot-spot.node-link.shop/posts/field_note-001-1l1t7ov.html</loc>
-    <lastmod>2026-06-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://myeongdong-hot-spot.node-link.shop/posts/field_note-002-1vyitt9.html</loc>
-    <lastmod>2026-06-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://myeongdong-hot-spot.node-link.shop/posts/guide-001-9j77r9.html</loc>
-    <lastmod>2026-07-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://myeongdong-hot-spot.node-link.shop/posts/guide-001-ghiv2z.html</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://myeongdong-hot-spot.node-link.shop/posts/guide-001-qdzh6w.html</loc>
-    <lastmod>2026-07-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://myeongdong-hot-spot.node-link.shop/posts/guide-002-1l1t7ov.html</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://myeongdong-hot-spot.node-link.shop/posts/juice-1.html</loc>
-    <lastmod>2026-05-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://myeongdong-hot-spot.node-link.shop/posts/juice-2.html</loc>
-    <lastmod>2026-05-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://myeongdong-hot-spot.node-link.shop/posts/myth-002-1mzk4ac.html</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://myeongdong-hot-spot.node-link.shop/posts/normal-1.html</loc>
-    <lastmod>2026-05-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://myeongdong-hot-spot.node-link.shop/posts/normal-2.html</loc>
-    <lastmod>2026-05-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://myeongdong-hot-spot.node-link.shop/posts/normal-3.html</loc>
-    <lastmod>2026-05-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://myeongdong-hot-spot.node-link.shop/posts/qa-001-12ryl4n.html</loc>
-    <lastmod>2026-07-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://myeongdong-hot-spot.node-link.shop/posts/qa-002-138e3dk.html</loc>
-    <lastmod>2026-07-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://myeongdong-hot-spot.node-link.shop/posts/qa-002-1amtze0.html</loc>
-    <lastmod>2026-07-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://myeongdong-hot-spot.node-link.shop/posts/qa-002-ghiv2z.html</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://myeongdong-hot-spot.node-link.shop/posts/review-001-d9eny2.html</loc>
-    <lastmod>2026-06-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://myeongdong-hot-spot.node-link.shop/posts/gemini-coverage-20260704-132.html</loc>
-    <lastmod>2026-07-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://myeongdong-hot-spot.node-link.shop/posts/gemini-coverage-20260705-327.html</loc>
-    <lastmod>2026-07-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://myeongdong-hot-spot.node-link.shop/posts/gemini-coverage-20260705-1179.html</loc>
-    <lastmod>2026-07-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://myeongdong-hot-spot.node-link.shop/posts/gemini-coverage-20260705-327.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://myeongdong-hot-spot.node-link.shop/posts/gemini-coverage-20260721-0286.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://myeongdong-hot-spot.node-link.shop/posts/gemini-coverage-20260721-0287.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://myeongdong-hot-spot.node-link.shop/posts/gemini-coverage-20260721-0288.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://myeongdong-hot-spot.node-link.shop/posts/gemini-coverage-20260721-0289.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://myeongdong-hot-spot.node-link.shop/posts/gemini-coverage-20260721-0290.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://myeongdong-hot-spot.node-link.shop/posts/gemini-coverage-20260721-0291.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://myeongdong-hot-spot.node-link.shop/posts/gemini-coverage-20260721-0292.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://myeongdong-hot-spot.node-link.shop/posts/gemini-coverage-20260721-0293.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://myeongdong-hot-spot.node-link.shop/posts/gemini-coverage-20260721-0294.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://myeongdong-hot-spot.node-link.shop/posts/gemini-coverage-20260722-0386.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://myeongdong-hot-spot.node-link.shop/posts/gemini-coverage-20260722-0387.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://myeongdong-hot-spot.node-link.shop/posts/gemini-coverage-20260722-0388.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://myeongdong-hot-spot.node-link.shop/posts/gemini-coverage-20260722-0389.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://myeongdong-hot-spot.node-link.shop/posts/gemini-coverage-20260722-0390.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://myeongdong-hot-spot.node-link.shop/posts/gemini-coverage-20260722-0391.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://myeongdong-hot-spot.node-link.shop/posts/gemini-coverage-20260722-0392.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://myeongdong-hot-spot.node-link.shop/posts/gemini-coverage-20260722-0393.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://myeongdong-hot-spot.node-link.shop/posts/gemini-coverage-20260722-0394.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://myeongdong-hot-spot.node-link.shop/posts/gemini-coverage-20260722-0395.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://myeongdong-hot-spot.node-link.shop/posts/gemini-coverage-20260722-0396.html</loc>
-    <lastmod>2026-07-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://myeongdong-hot-spot.node-link.shop/posts/guide-001-9j77r9.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://myeongdong-hot-spot.node-link.shop/posts/guide-001-ghiv2z.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://myeongdong-hot-spot.node-link.shop/posts/guide-001-qdzh6w.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://myeongdong-hot-spot.node-link.shop/posts/guide-002-1l1t7ov.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://myeongdong-hot-spot.node-link.shop/posts/juice-1.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://myeongdong-hot-spot.node-link.shop/posts/juice-2.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://myeongdong-hot-spot.node-link.shop/posts/myth-002-1mzk4ac.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://myeongdong-hot-spot.node-link.shop/posts/normal-1.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://myeongdong-hot-spot.node-link.shop/posts/normal-2.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://myeongdong-hot-spot.node-link.shop/posts/normal-3.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://myeongdong-hot-spot.node-link.shop/posts/qa-001-12ryl4n.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://myeongdong-hot-spot.node-link.shop/posts/qa-002-138e3dk.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://myeongdong-hot-spot.node-link.shop/posts/qa-002-1amtze0.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://myeongdong-hot-spot.node-link.shop/posts/qa-002-ghiv2z.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://myeongdong-hot-spot.node-link.shop/posts/review-001-d9eny2.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
