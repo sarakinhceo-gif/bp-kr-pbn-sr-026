@@ -1,412 +1,410 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="bpaas-design-system" content="editorial-apple">
-    <meta name="bpaas-design-theme" content="kr-ivory-ink">
-    <meta name="description" content="명동에서 진짜 핫한 곳을 찾고 있다면? 에디터가 직접 발로 뛰고 엄선한 명동 핫플 5곳. 관광객 코스는 잊어라.">
-    <meta name="keywords" content="명동 핫플 추천, 명동 맛집, 명동 카페, 명동 데이트, 명동 쇼핑, 명동 핫플레이스, 서울 핫플, 명동 블로그">
-    <meta name="author" content="명동 핫플 추천">
-    <meta property="og:title" content="명동 핫플 추천 | 블로그 - 진짜 명동을 찾아서">
-    <meta property="og:description" content="명동에서 진짜 핫한 곳을 찾고 있다면? 에디터가 직접 발로 뛰고 엄선한 명동 핫플 5곳. 관광객 코스는 잊어라.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://myeongdong-hot-spot.node-link.shop/blog.html">
-    <title>명동 핫플 추천 | 블로그 - 진짜 명동을 찾아서</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta name="description" content="명동에서 진짜 핫한 곳을 찾고 있다면? 에디터가 직접 발로 뛰고 엄선한 명동 핫플 5곳. 관광객 코스는 잊어라.">
+ <meta name="keywords" content="명동 핫플 추천, 명동 맛집, 명동 카페, 명동 데이트, 명동 쇼핑, 명동 핫플레이스, 서울 핫플, 명동 블로그">
+ <meta name="author" content="명동 핫플 추천">
+ <meta property="og:title" content="명동 핫플 추천 | 블로그 - 진짜 명동을 찾아서">
+ <meta property="og:description" content="명동에서 진짜 핫한 곳을 찾고 있다면? 에디터가 직접 발로 뛰고 엄선한 명동 핫플 5곳. 관광객 코스는 잊어라.">
+ <meta property="og:type" content="website">
+ <meta property="og:url" content="https://myeongdong-hot-spot.node-link.shop/blog.html">
+ <title>명동 핫플 추천 | 블로그 - 진짜 명동을 찾아서</title>
+ <style>
+ * {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ }
 
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-            background-color: #faf8f5;
-            color: #1a1a1a;
-            line-height: 1.6;
-        }
+ body {
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+ background-color: #faf8f5;
+ color: #1a1a1a;
+ line-height: 1.6;
+ }
 
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
+ .container {
+ max-width: 1200px;
+ margin: 0 auto;
+ padding: 0 20px;
+ }
 
-        /* 헤더 */
-        header {
-            background-color: #1a1a1a;
-            color: #faf8f5;
-            padding: 15px 0;
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-        }
+ /* 헤더 */
+ header {
+ background-color: #1a1a1a;
+ color: #faf8f5;
+ padding: 15px 0;
+ position: sticky;
+ top: 0;
+ z-index: 1000;
+ }
 
-        .header-inner {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
+ .header-inner {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ }
 
-        .logo {
-            font-size: 1.5em;
-            font-weight: 700;
-            letter-spacing: 2px;
-            text-transform: uppercase;
-        }
+ .logo {
+ font-size: 1.5em;
+ font-weight: 700;
+ letter-spacing: 2px;
+ text-transform: uppercase;
+ }
 
-        nav {
-            display: flex;
-            gap: 30px;
-        }
+ nav {
+ display: flex;
+ gap: 30px;
+ }
 
-        nav a {
-            color: #faf8f5;
-            text-decoration: none;
-            font-size: 0.9em;
-            font-weight: 500;
-            transition: color 0.3s ease;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
+ nav a {
+ color: #faf8f5;
+ text-decoration: none;
+ font-size: 0.9em;
+ font-weight: 500;
+ transition: color 0.3s ease;
+ text-transform: uppercase;
+ letter-spacing: 1px;
+ }
 
-        nav a:hover {
-            color: #c9a96e;
-        }
+ nav a:hover {
+ color: #c9a96e;
+ }
 
-        .hamburger {
-            display: none;
-            flex-direction: column;
-            cursor: pointer;
-        }
+ .hamburger {
+ display: none;
+ flex-direction: column;
+ cursor: pointer;
+ }
 
-        .hamburger span {
-            width: 25px;
-            height: 2px;
-            background-color: #faf8f5;
-            margin: 4px 0;
-            transition: 0.4s;
-        }
+ .hamburger span {
+ width: 25px;
+ height: 2px;
+ background-color: #faf8f5;
+ margin: 4px 0;
+ transition: 0.4s;
+ }
 
-        .mobile-menu {
-            display: none;
-        }
+ .mobile-menu {
+ display: none;
+ }
 
-        /* 히어로 */
-        .hero {
-            position: relative;
-            height: 400px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
-            margin-bottom: 60px;
-        }
+ /* 히어로 */
+ .hero {
+ position: relative;
+ height: 400px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+ background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+ margin-bottom: 60px;
+ }
 
-        .hero::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y=".9em" font-size="90">✦</text></svg>') repeat;
-            opacity: 0.05;
-        }
+ .hero::before {
+ content: '';
+ position: absolute;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y=".9em" font-size="90">✦</text></svg>') repeat;
+ opacity: 0.05;
+ }
 
-        .hero-content {
-            position: relative;
-            z-index: 1;
-            max-width: 800px;
-        }
+ .hero-content {
+ position: relative;
+ z-index: 1;
+ max-width: 800px;
+ }
 
-        .hero h1 {
-            font-size: 3em;
-            font-weight: 700;
-            color: #faf8f5;
-            margin-bottom: 20px;
-            letter-spacing: 3px;
-            text-transform: uppercase;
-        }
+ .hero h1 {
+ font-size: 3em;
+ font-weight: 700;
+ color: #faf8f5;
+ margin-bottom: 20px;
+ letter-spacing: 3px;
+ text-transform: uppercase;
+ }
 
-        .hero p {
-            font-size: 1.2em;
-            color: #c9a96e;
-            font-weight: 300;
-        }
+ .hero p {
+ font-size: 1.2em;
+ color: #c9a96e;
+ font-weight: 300;
+ }
 
-        /* 메인 콘텐츠 */
-        .blog-post {
-            max-width: 800px;
-            margin: 0 auto 80px;
-            padding: 0 20px;
-        }
+ /* 메인 콘텐츠 */
+ .blog-post {
+ max-width: 800px;
+ margin: 0 auto 80px;
+ padding: 0 20px;
+ }
 
-        .blog-post .meta {
-            font-size: 0.85em;
-            color: #888;
-            margin-bottom: 30px;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-        }
+ .blog-post .meta {
+ font-size: 0.85em;
+ color: #888;
+ margin-bottom: 30px;
+ text-transform: uppercase;
+ letter-spacing: 2px;
+ }
 
-        .blog-post h2 {
-            font-size: 2.2em;
-            font-weight: 700;
-            margin-bottom: 30px;
-            color: #1a1a1a;
-            line-height: 1.3;
-            letter-spacing: -0.5px;
-        }
+ .blog-post h2 {
+ font-size: 2.2em;
+ font-weight: 700;
+ margin-bottom: 30px;
+ color: #1a1a1a;
+ line-height: 1.3;
+ letter-spacing: -0.5px;
+ }
 
-        .blog-post p {
-            font-size: 1.1em;
-            color: #333;
-            margin-bottom: 25px;
-            line-height: 1.8;
-        }
+ .blog-post p {
+ font-size: 1.1em;
+ color: #333;
+ margin-bottom: 25px;
+ line-height: 1.8;
+ }
 
-        .blog-post .highlight-box {
-            background: #1a1a1a;
-            color: #faf8f5;
-            padding: 40px;
-            margin: 40px 0;
-            border-radius: 4px;
-        }
+ .blog-post .highlight-box {
+ background: #1a1a1a;
+ color: #faf8f5;
+ padding: 40px;
+ margin: 40px 0;
+ border-radius: 4px;
+ }
 
-        .blog-post .highlight-box p {
-            color: #faf8f5;
-            font-size: 1.15em;
-            margin-bottom: 15px;
-        }
+ .blog-post .highlight-box p {
+ color: #faf8f5;
+ font-size: 1.15em;
+ margin-bottom: 15px;
+ }
 
-        .blog-post .highlight-box .quote {
-            font-size: 1.5em;
-            font-weight: 700;
-            color: #c9a96e;
-            font-style: italic;
-            margin-bottom: 10px;
-        }
+ .blog-post .highlight-box .quote {
+ font-size: 1.5em;
+ font-weight: 700;
+ color: #c9a96e;
+ font-style: italic;
+ margin-bottom: 10px;
+ }
 
-        .blog-post .hotplace-item {
-            border-left: 3px solid #c9a96e;
-            padding-left: 25px;
-            margin: 40px 0;
-        }
+ .blog-post .hotplace-item {
+ border-left: 3px solid #c9a96e;
+ padding-left: 25px;
+ margin: 40px 0;
+ }
 
-        .blog-post .hotplace-item h3 {
-            font-size: 1.5em;
-            font-weight: 700;
-            color: #1a1a1a;
-            margin-bottom: 10px;
-        }
+ .blog-post .hotplace-item h3 {
+ font-size: 1.5em;
+ font-weight: 700;
+ color: #1a1a1a;
+ margin-bottom: 10px;
+ }
 
-        .blog-post .hotplace-item .tag {
-            display: inline-block;
-            background: #c9a96e;
-            color: #1a1a1a;
-            padding: 4px 12px;
-            font-size: 0.8em;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            margin-bottom: 15px;
-        }
+ .blog-post .hotplace-item .tag {
+ display: inline-block;
+ background: #c9a96e;
+ color: #1a1a1a;
+ padding: 4px 12px;
+ font-size: 0.8em;
+ font-weight: 600;
+ text-transform: uppercase;
+ letter-spacing: 1px;
+ margin-bottom: 15px;
+ }
 
-        .blog-post .hotplace-item p {
-            font-size: 1em;
-            color: #444;
-        }
+ .blog-post .hotplace-item p {
+ font-size: 1em;
+ color: #444;
+ }
 
-        /* FAQ 섹션 */
-        .faq-section {
-            max-width: 800px;
-            margin: 0 auto 80px;
-            padding: 0 20px;
-        }
+ /* FAQ 섹션 */
+ .faq-section {
+ max-width: 800px;
+ margin: 0 auto 80px;
+ padding: 0 20px;
+ }
 
-        .faq-section h2 {
-            font-size: 2em;
-            font-weight: 700;
-            margin-bottom: 40px;
-            color: #1a1a1a;
-            text-align: center;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-        }
+ .faq-section h2 {
+ font-size: 2em;
+ font-weight: 700;
+ margin-bottom: 40px;
+ color: #1a1a1a;
+ text-align: center;
+ text-transform: uppercase;
+ letter-spacing: 2px;
+ }
 
-        .faq-item {
-            border-bottom: 1px solid #ddd;
-            padding: 20px 0;
-        }
+ .faq-item {
+ border-bottom: 1px solid #ddd;
+ padding: 20px 0;
+ }
 
-        .faq-item h3 {
-            font-size: 1.1em;
-            font-weight: 600;
-            color: #1a1a1a;
-            margin-bottom: 10px;
-            cursor: pointer;
-        }
+ .faq-item h3 {
+ font-size: 1.1em;
+ font-weight: 600;
+ color: #1a1a1a;
+ margin-bottom: 10px;
+ cursor: pointer;
+ }
 
-        .faq-item p {
-            font-size: 0.95em;
-            color: #555;
-            line-height: 1.7;
-        }
+ .faq-item p {
+ font-size: 0.95em;
+ color: #555;
+ line-height: 1.7;
+ }
 
-        /* 푸터 */
-        footer {
-            background-color: #1a1a1a;
-            color: #faf8f5;
-            padding: 40px 0;
-            text-align: center;
-        }
+ /* 푸터 */
+ footer {
+ background-color: #1a1a1a;
+ color: #faf8f5;
+ padding: 40px 0;
+ text-align: center;
+ }
 
-        footer p {
-            font-size: 0.85em;
-            opacity: 0.7;
-        }
+ footer p {
+ font-size: 0.85em;
+ opacity: 0.7;
+ }
 
-        /* 반응형 */
-        @media (max-width: 768px) {
-            nav {
-                display: none;
-            }
+ /* 반응형 */
+ @media (max-width: 768px) {
+ nav {
+ display: none;
+ }
 
-            .hamburger {
-                display: flex;
-            }
+ .hamburger {
+ display: flex;
+ }
 
-            .mobile-menu {
-                display: none;
-                position: absolute;
-                top: 60px;
-                left: 0;
-                right: 0;
-                background-color: #1a1a1a;
-                padding: 20px;
-                flex-direction: column;
-                gap: 15px;
-            }
+ .mobile-menu {
+ display: none;
+ position: absolute;
+ top: 60px;
+ left: 0;
+ right: 0;
+ background-color: #1a1a1a;
+ padding: 20px;
+ flex-direction: column;
+ gap: 15px;
+ }
 
-            .mobile-menu a {
-                color: #faf8f5;
-                text-decoration: none;
-                font-size: 1em;
-                text-transform: uppercase;
-                letter-spacing: 1px;
-            }
+ .mobile-menu a {
+ color: #faf8f5;
+ text-decoration: none;
+ font-size: 1em;
+ text-transform: uppercase;
+ letter-spacing: 1px;
+ }
 
-            .mobile-menu.active {
-                display: flex;
-            }
+ .mobile-menu.active {
+ display: flex;
+ }
 
-            .hero h1 {
-                font-size: 2em;
-            }
+ .hero h1 {
+ font-size: 2em;
+ }
 
-            .hero {
-                height: 300px;
-            }
+ .hero {
+ height: 300px;
+ }
 
-            .blog-post h2 {
-                font-size: 1.6em;
-            }
+ .blog-post h2 {
+ font-size: 1.6em;
+ }
 
-            .blog-post .highlight-box {
-                padding: 25px;
-            }
+ .blog-post .highlight-box {
+ padding: 25px;
+ }
 
-            .blog-post .highlight-box .quote {
-                font-size: 1.2em;
-            }
-        }
-    </style>
-  <link rel="canonical" href="https://myeongdong-hot-spot.node-link.shop/blog.html">
-  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+ .blog-post .highlight-box .quote {
+ font-size: 1.2em;
+ }
+ }
+ </style>
+ <link rel="canonical" href="https://myeongdong-hot-spot.node-link.shop/blog.html">
+ <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <meta name="twitter:card" content="summary">
 </head>
 <body>
-    <header>
-        <div class="container header-inner">
-            <div class="logo">명동 핫플</div>
-            <nav>
-                <a href="/">홈</a>
-                <a href="/about">소개</a>
-                <a href="/blog">블로그</a>
-                <a href="/contact">문의</a>
-            </nav>
-            <div class="hamburger" onclick="toggleMenu()">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-        <div class="mobile-menu" id="mobileMenu">
-            <a href="/">홈</a>
-            <a href="/about">소개</a>
-            <a href="/blog">블로그</a>
-            <a href="/contact">문의</a>
-        </div>
-    </header>
+ <header>
+ <div class="container header-inner">
+ <div class="logo">명동 핫플</div>
+ <nav>
+ <a href="/">홈</a>
+ <a href="/about">소개</a>
+ <a href="/blog">블로그</a>
+ <a href="/contact">문의</a>
+ </nav>
+ <div class="hamburger" onclick="toggleMenu()">
+ <span></span>
+ <span></span>
+ <span></span>
+ </div>
+ </div>
+ <div class="mobile-menu" id="mobileMenu">
+ <a href="/">홈</a>
+ <a href="/about">소개</a>
+ <a href="/blog">블로그</a>
+ <a href="/contact">문의</a>
+ </div>
+ </header>
 
 <main>
-  <article class="blog-post">
-    <p class="meta">명동 지역 정보 · 방문 가이드</p>
-    <h1>명동에서 하루를 보내는 법, 동선부터 정하자</h1>
+ <article class="blog-post">
+ <p class="meta">명동 지역 정보 · 방문 가이드</p>
+ <h1>명동에서 하루를 보내는 법, 동선부터 정하자</h1>
 
-    <p>명동을 하루 안에 둘러보려는 방문객이라면 동선을 먼저 정하는 것이 시간을 아끼는 방법입니다. 이 글에서는 명동 방문을 계획할 때 참고할 수 있는 순서와 확인해야 할 사항을 정리합니다. 특히 처음 방문하는 경우라면 이동 수단과 시간대를 먼저 정해 두는 것이 전체 일정을 짜는 데 도움이 됩니다.</p>
+ <p>명동을 하루 안에 둘러보려는 방문객이라면 동선을 먼저 정하는 것이 시간을 아끼는 방법입니다. 이 글에서는 명동 방문을 계획할 때 참고할 수 있는 순서와 확인해야 할 사항을 정리합니다. 특히 처음 방문하는 경우라면 이동 수단과 시간대를 먼저 정해 두는 것이 전체 일정을 짜는 데 도움이 됩니다.</p>
 
-    <div class="highlight-box">
-      <p class="quote">동선을 먼저 정하고, 예약은 그 다음이다.</p>
-    </div>
+ <div class="highlight-box">
+ <p class="quote">동선을 먼저 정하고, 예약은 그 다음이다.</p>
+ </div>
 
-    <h2>방문 시간대별 특징</h2>
-    <p>명동은 낮과 저녁의 분위기가 크게 달라지는 지역입니다. 낮 시간에는 쇼핑과 관광 목적의 유동 인구가 많고, 저녁 시간에는 모임과 식사를 위한 방문이 늘어납니다. 시간대에 따라 혼잡도가 다르므로 목적에 맞춰 방문 시간을 조정하는 것이 좋습니다. 늦은 저녁에는 골목 안쪽 상권으로 인파가 옮겨가는 경향이 있어, 초행길이라면 밝은 큰길을 기준으로 이동 경로를 잡는 것이 안전합니다.</p>
+ <h2>방문 시간대별 특징</h2>
+ <p>명동은 낮과 저녁의 분위기가 크게 달라지는 지역입니다. 낮 시간에는 쇼핑과 관광 목적의 유동 인구가 많고, 저녁 시간에는 모임과 식사를 위한 방문이 늘어납니다. 시간대에 따라 혼잡도가 다르므로 목적에 맞춰 방문 시간을 조정하는 것이 좋습니다. 늦은 저녁에는 골목 안쪽 상권으로 인파가 옮겨가는 경향이 있어, 초행길이라면 밝은 큰길을 기준으로 이동 경로를 잡는 것이 안전합니다.</p>
 
-    <h2>이동 수단 비교</h2>
-    <div class="hotplace-item">
-      <p><strong>지하철</strong> — 4호선 명동역 하차 시 대부분의 구역까지 도보 이동이 가능합니다.</p>
-    </div>
-    <div class="hotplace-item">
-      <p><strong>버스</strong> — 명동입구 정류장을 기준으로 골목 안쪽까지 도보 이동이 필요합니다.</p>
-    </div>
-    <div class="hotplace-item">
-      <p><strong>택시</strong> — 심야 시간대에는 인근 대로변에서 승하차하는 것이 이동에 유리합니다.</p>
-    </div>
+ <h2>이동 수단 비교</h2>
+ <div class="hotplace-item">
+ <p><strong>지하철</strong> — 4호선 명동역 하차 시 대부분의 구역까지 도보 이동이 가능합니다.</p>
+ </div>
+ <div class="hotplace-item">
+ <p><strong>버스</strong> — 명동입구 정류장을 기준으로 골목 안쪽까지 도보 이동이 필요합니다.</p>
+ </div>
+ <div class="hotplace-item">
+ <p><strong>택시</strong> — 심야 시간대에는 인근 대로변에서 승하차하는 것이 이동에 유리합니다.</p>
+ </div>
 
-    <h2>태그로 보는 명동</h2>
-    <p>
-      <span class="tag">#접근성</span>
-      <span class="tag">#야간모임</span>
-      <span class="tag">#도보이동</span>
-      <span class="tag">#대중교통</span>
-    </p>
-    <div class="hotplace-item">
-      <p>명동역과 을지로입구역 사이 구간은 도보 이동만으로도 대부분의 장소에 접근할 수 있습니다.</p>
-    </div>
-    <div class="hotplace-item">
-      <p>저녁 모임을 계획한다면 막차 시간을 기준으로 귀가 동선을 먼저 확인해 두는 것이 안전합니다.</p>
-    </div>
+ <h2>태그로 보는 명동</h2>
+ <p>
+ <span class="tag">#접근성</span>
+ <span class="tag">#야간모임</span>
+ <span class="tag">#도보이동</span>
+ <span class="tag">#대중교통</span>
+ </p>
+ <div class="hotplace-item">
+ <p>명동역과 을지로입구역 사이 구간은 도보 이동만으로도 대부분의 장소에 접근할 수 있습니다.</p>
+ </div>
+ <div class="hotplace-item">
+ <p>저녁 모임을 계획한다면 막차 시간을 기준으로 귀가 동선을 먼저 확인해 두는 것이 안전합니다.</p>
+ </div>
 
-    <h2>자주 묻는 질문</h2>
-    <div class="faq-section">
-      <div class="faq-item">
-        <p><strong>Q. 주말에는 얼마나 혼잡한가요?</strong></p>
-        <p>평일 대비 유동 인구가 크게 늘어나는 편이므로 여유 있게 시간을 잡는 것이 좋습니다.</p>
-      </div>
-      <div class="faq-item">
-        <p><strong>Q. 야간에도 대중교통 이용이 편한가요?</strong></p>
-        <p>지하철 막차 시간 전후로는 배차 간격이 늘어나므로 미리 시간을 확인하는 것이 좋습니다.</p>
-      </div>
-      <div class="faq-item">
-        <p><strong>Q. 초행길이면 무엇부터 확인해야 하나요?</strong></p>
-        <p>지하철 출구 번호와 큰길 이름을 먼저 확인한 뒤, 골목 안쪽으로 이동하는 순서를 기억해 두는 것이 좋습니다.</p>
-      </div>
-    </div>
-  </article>
+ <h2>자주 묻는 질문</h2>
+ <div class="faq-section">
+ <div class="faq-item">
+ <p><strong>Q. 주말에는 얼마나 혼잡한가요?</strong></p>
+ <p>평일 대비 유동 인구가 크게 늘어나는 편이므로 여유 있게 시간을 잡는 것이 좋습니다.</p>
+ </div>
+ <div class="faq-item">
+ <p><strong>Q. 야간에도 대중교통 이용이 편한가요?</strong></p>
+ <p>지하철 막차 시간 전후로는 배차 간격이 늘어나므로 미리 시간을 확인하는 것이 좋습니다.</p>
+ </div>
+ <div class="faq-item">
+ <p><strong>Q. 초행길이면 무엇부터 확인해야 하나요?</strong></p>
+ <p>지하철 출구 번호와 큰길 이름을 먼저 확인한 뒤, 골목 안쪽으로 이동하는 순서를 기억해 두는 것이 좋습니다.</p>
+ </div>
+ </div>
+ </article>
 </main>
 
 
