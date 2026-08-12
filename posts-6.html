@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>글 목록 (6/6) · kr-pbn-sr-026</title>
+  <meta name="description" content="kr-pbn-sr-026에 올라온 글 목록입니다.">
+  <link rel="canonical" href="https://myeongdong-hot-spot.node-link.shop/posts-6.html">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <style>
+ * {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ }
+
+ body {
+ background-color: #fdfaf3;
+ color: #2c2416;
+ font-family: 'Georgia', 'Times New Roman', 'Palatino Linotype', serif;
+ line-height: 1.8;
+ -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale;
+ }
+
+ .container {
+ max-width: 720px;
+ margin: 0 auto;
+ padding: 72px 24px;
+ }
+
+ /* 헤더 */
+ header {
+ border-bottom: 1px solid #8a7355;
+ padding-bottom: 24px;
+ margin-bottom: 48px;
+ }
+
+ .header-inner {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ max-width: 720px;
+ margin: 0 auto;
+ padding: 0 24px;
+ }
+
+ .logo {
+ font-size: 1.2rem;
+ letter-spacing: 0.15em;
+ text-transform: uppercase;
+ color: #2c2416;
+ font-weight: 700;
+ }
+
+ nav {
+ display: flex;
+ gap: 32px;
+ align-items: center;
+ }
+
+ nav a {
+ color: #2c2416;
+ text-decoration: none;
+ font-size: 0.9rem;
+ letter-spacing: 0.1em;
+ text-transform: uppercase;
+ transition: color 0.2s;
+ }
+
+ nav a:hover {
+ color: #8a7355;
+ }
+
+ .hamburger {
+ display: none;
+ cursor: pointer;
+ background: none;
+ border: none;
+ padding: 8px;
+ flex-direction: column;
+ gap: 5px;
+ }
+
+ .hamburger span {
+ display: block;
+ width: 28px;
+ height: 2px;
+ background: #2c2416;
+ transition: all 0.3s;
+ }
+
+ .mobile-menu {
+ display: none;
+ }
+
+ /* 히어로 */
+ .hero {
+ margin-bottom: 120px;
+ padding: 72px 0;
+ position: relative;
+ background: linear-gradient(135deg, #2c2416 0%, #8a7355 50%, #2c2416 100%);
+ min-height: 60vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+ border-top: 4px solid #fdfaf3;
+ border-bottom: 4px solid #fdfaf3;
+ }
+
+ .hero::before {
+ content: '';
+ position: absolute;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ background: linear-gradient(180deg, rgba(44,36,22,0.3) 0%, rgba(44,36,22,0.7) 100%);
+ z-index: 1;
+ }
+
+ .hero-content {
+ position: relative;
+ z-index: 2;
+ max-width: 720px;
+ padding: 0 24px;
+ }
+
+ .hero h1 {
+ font-size: 3.5rem;
+ letter-spacing: 0.08em;
+ line-height: 1.2;
+ color: #fdfaf3;
+ margin-bottom: 24px;
+ font-weight: 700;
+ text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+ }
+
+ .hero p {
+ font-size: 1.2rem;
+ letter-spacing: 0.05em;
+ color: rgba(253,250,243,0.85);
+ max-width: 600px;
+ margin: 0 auto;
+ font-style: italic;
+ }
+
+ .hero .dropcap::first-letter {
+ font-size: 4rem;
+ float: left;
+ margin-right: 8px;
+ line-height: 0.8;
+ color: #fdfaf3;
+ font-weight: 700;
+ }
+
+ /* 섹션 */
+ section {
+ margin-bottom: 120px;
+ }
+
+ .section-title {
+ font-size: 2.2rem;
+ letter-spacing: 0.12em;
+ color: #2c2416;
+ margin-bottom: 48px;
+ font-weight: 700;
+ border-left: 4px solid #8a7355;
+ padding-left: 24px;
+ }
+
+ .section-title span {
+ color: #8a7355;
+ }
+
+ /* 핫플 리스트 */
+ .hotspot-list {
+ display: flex;
+ flex-direction: column;
+ gap: 48px;
+ }
+
+ .hotspot-item {
+ border-bottom: 1px solid #8a7355;
+ padding-bottom: 48px;
+ }
+
+ .hotspot-item:last-child {
+ border-bottom: none;
+ }
+
+ .hotspot-number {
+ font-size: 0.8rem;
+ letter-spacing: 0.2em;
+ color: #8a7355;
+ text-transform: uppercase;
+ margin-bottom: 8px;
+ }
+
+ .hotspot-title {
+ font-size: 1.8rem;
+ letter-spacing: 0.05em;
+ color: #2c2416;
+ margin-bottom: 16px;
+ font-weight: 700;
+ }
+
+ .hotspot-desc {
+ font-size: 1rem;
+ color: #2c2416;
+ opacity: 0.85;
+ margin-bottom: 16px;
+ line-height: 1.9;
+ }
+
+ .hotspot-meta {
+ display: flex;
+ gap: 24px;
+ font-size: 0.85rem;
+ color: #8a7355;
+ letter-spacing: 0.05em;
+ }
+
+ .hotspot-meta span {
+ display: flex;
+ align-items: center;
+ gap: 6px;
+ }
+
+ /* UGC 리뷰 */
+ .review-grid {
+ display: grid;
+ grid-template-columns: 1fr;
+ gap: 48px;
+ }
+
+ .review-card {
+ padding: 24px 0;
+ border-top: 1px solid #8a7355;
+ }
+
+ .review-header {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin-bottom: 12px;
+ }
+
+ .review-user {
+ font-weight: 700;
+ letter-spacing: 0.05em;
+ font-size: 1rem;
+ color: #2c2416;
+ }
+
+ .review-date {
+ font-size: 0.8rem;
+ color: #8a7355;
+ letter-spacing: 0.05em;
+ }
+
+ .review-stars {
+ color: #8a7355;
+ font-size: 1.2rem;
+ letter-spacing: 0.3em;
+ margin-bottom: 8px;
+ }
+
+ .review-text {
+ font-size: 1rem;
+ line-height: 1.9;
+ color: #2c2416;
+ opacity: 0.85;
+ font-style: italic;
+ }
+
+ /* 푸터 */
+ footer {
+ border-top: 2px solid #2c2416;
+ padding-top: 48px;
+ margin-top: 120px;
+ text-align: center;
+ }
+
+ .footer-inner {
+ max-width: 720px;
+ margin: 0 auto;
+ padding: 0 24px;
+ }
+
+ .footer-links {
+ display: flex;
+ justify-content: center;
+ gap: 48px;
+ margin-bottom: 24px;
+ flex-wrap: wrap;
+ }
+
+ .footer-links a {
+ color: #2c2416;
+ text-decoration: none;
+ font-size: 0.85rem;
+ letter-spacing: 0.1em;
+ text-transform: uppercase;
+ transition: color 0.2s;
+ }
+
+ .footer-links a:hover {
+ color: #8a7355;
+ }
+
+ .copyright {
+ font-size: 0.8rem;
+ color: #8a7355;
+ letter-spacing: 0.1em;
+ }
+
+ .copyright a {
+ color: #8a7355;
+ text-decoration: underline;
+ }
+
+ /* 반응형 */
+ @media (max-width: 768px) {
+ .container {
+ padding: 48px 16px;
+ }
+
+ .header-inner {
+ padding: 0 16px;
+ }
+
+ nav {
+ display: none;
+ }
+
+ .hamburger {
+ display: flex;
+ }
+
+ .mobile-menu.active {
+ display: block;
+ position: absolute;
+ top: 72px;
+ left: 0;
+ right: 0;
+ background: #fdfaf3;
+ border-bottom: 1px solid #8a7355;
+ padding: 24px;
+ z-index: 100;
+ }
+
+ .mobile-menu.active a {
+ display: block;
+ padding: 16px 0;
+ color: #2c2416;
+ text-decoration: none;
+ font-size: 1rem;
+ letter-spacing: 0.1em;
+ text-transform: uppercase;
+ border-bottom: 1px solid rgba(138,115,85,0.2);
+ }
+
+ .mobile-menu.active a:last-child {
+ border-bottom: none;
+ }
+
+ .hero {
+ min-height: 50vh;
+ padding: 48px 0;
+ }
+
+ .hero h1 {
+ font-size: 2.2rem;
+ }
+
+ .hero p {
+ font-size: 1rem;
+ }
+
+ .section-title {
+ font-size: 1.6rem;
+ padding-left: 16px;
+ }
+
+ .hotspot-title {
+ font-size: 1.4rem;
+ }
+
+ .review-grid {
+ gap: 32px;
+ }
+
+ .footer-links {
+ gap: 24px;
+ flex-direction: column;
+ align-items: center;
+ }
+
+ section {
+ margin-bottom: 80px;
+ }
+
+ .hero {
+ margin-bottom: 80px;
+ }
+ }
+
+ @media (max-width: 480px) {
+ .hero h1 {
+ font-size: 1.8rem;
+ }
+
+ .container {
+ padding: 32px 12px;
+ }
+
+ .hotspot-meta {
+ flex-direction: column;
+ gap: 8px;
+ }
+ }
+ </style>
+  <meta property="og:title" content="글 목록 (6/6) · kr-pbn-sr-026">
+  <meta property="og:description" content="kr-pbn-sr-026에 올라온 글 목록입니다.">
+  <meta property="og:url" content="https://myeongdong-hot-spot.node-link.shop/posts-6.html">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+</head>
+<body>
+  <div class="container">
+    <header>
+ <div class="header-inner">
+ <div class="logo">명동 핫플</div>
+ <nav>
+ <a href="#hotspots">핫플</a>
+ <a href="#reviews">리뷰</a>
+ 
+ </nav>
+ <button class="hamburger" id="hamburger" aria-label="메뉴 열기">
+ 
+ 
+ 
+ </button>
+ </div>
+ <div class="mobile-menu" id="mobileMenu">
+ <a href="#hotspots">핫플</a>
+ <a href="#reviews">리뷰</a>
+ 
+ </div>
+</header>
+    <main>
+      <h1>글 목록</h1>
+      <p>전체 106개 · 6/6 페이지</p>
+      <ul class="post-list">
+      <li class="post-item">
+        <a class="post-item__link" href="posts/normal-3.html">명동에서 즐기는 이색적인 실내 사격 체험과 활기찬 분위기</a>
+        <p class="post-item__summary">명동은 오랜 시간 동안 수많은 상점과 음식점이 밀집한 중심지로서 활기 넘치는 에너지를 발산하는 곳입니다. 단순히 쇼핑하거나 길거리 음식을 즐기는 것 외에도 실내에서 활동적으로 시간을 보낼 수 있는 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/qa-001-12ryl4n.html">명동의 밤을 고요하게 지키는 취향의 미학</a>
+        <p class="post-item__summary">명동이라고 하면 으레 사람들은 번잡한 인파와 흔해 빠진 길거리 음식을 떠올리곤 하죠. 그 뻔한 풍경 속에서 어떻게든 자극을 찾아보려는 사람들이 참 안쓰럽기도 하고, 또 한편으로는 저렇게까지 열정적으</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/qa-002-138e3dk.html">명동 핫플 추천 처음 알아볼 때 실제로 많이 묻는 질문 5가지</a>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/qa-002-1amtze0.html">명동 핫플 추천</a>
+        <p class="post-item__summary">서울의 한복판에 자리한 명동은 사계절 내내 수많은 사람들의 발길이 끊이지 않는 대표적인 거리입니다. 과거와 현재가 함께 숨 쉬며 독특한 분위기를 자아내는 이곳은 단순히 물건을 사고파는 상업 구역을 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/qa-002-ghiv2z.html">명동 핫플 추천 처음 알아볼 때 실제로 많이 묻는 질문 5가지</a>
+        <p class="post-item__summary">명동은 서울을 대표하는 핵심 관광지이자 다양한 볼거리와 먹거리가 모여 있는 번화가입니다. 처음 방문 경로를 계획할 때는 메인 거리를 중심으로 동선을 그리는 것이 유리합니다. 대중교통 접근성이 뛰어난</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/review-001-d9eny2.html">명동의 소란함 속에서 발견한 고요한 기록의 공간</a>
+        <p class="post-item__summary">대부분의 사람들은 명동에 오면 화려한 간판이나 유행하는 길거리 음식에만 시선을 빼앗기곤 하더군요. 다들 바쁘게 스쳐 지나가는 인파 속에 섞여 무엇을 찾는 건지, 솔직히 관망하는 입장에서는 그저 기이</p>
+      </li>
+      </ul>
+    <nav class="pager">
+      <a class="pager__link" href="posts.html">1</a>
+      <a class="pager__link" href="posts-2.html">2</a>
+      <a class="pager__link" href="posts-3.html">3</a>
+      <a class="pager__link" href="posts-4.html">4</a>
+      <a class="pager__link" href="posts-5.html">5</a>
+      <span class="pager__current">6</span>
+    </nav>
+    </main>
+  </div>
+</body>
+</html>
